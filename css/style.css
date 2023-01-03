@@ -13,3 +13,11 @@ body{
         font-size: 30px;
         color: aquamarine;
 }
+
+.ban{
+    text-align: center;
+}
+
+.ban img{
+    width: 200px;
+}
