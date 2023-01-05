@@ -3,7 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgba(255, 166, 0, 0.499);
+    background-color: rgba(237, 234, 230, 0.499);
+    background-attachment: fixed;
 }
 .head{
     text-align: center;    
