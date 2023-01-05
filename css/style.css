@@ -1,24 +1,99 @@
-body{
-    background-image: url(../images/pexels-stein-egil-liland-3408744.jpg);
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(237, 234, 230, 0.499);
-    background-attachment: fixed;
-}
-.head{
-    text-align: center;    
+    background-position: bottom right;
 }
 
-.head h1{
-        font-size: 30px;
-        color: aquamarine;
+/* navbar style  */
+#navbar {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
-.ban{
-    text-align: center;
+#navbar h1 a {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
 }
 
-.ban img{
-    width: 200px;
+#navbar h1 a span {
+    color: #FD6E0A;
+}
+
+#navbar .nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar .nav-list .nav-item {
+    padding: 0 10px;
+}
+
+#navbar .nav-list .nav-item button {
+    padding: 10px 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FD6E0A;
+}
+
+#navbar .nav-list .nav-item a {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    color: #474747;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* banner style */
+#banner {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.ban-content h3 {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: #474747;
+}
+
+.ban-content h2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 55px;
+    color: #181818;
+}
+
+.ban-content p {
+    padding-top: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #757575;
+    padding-right: 130px     ;
 }
