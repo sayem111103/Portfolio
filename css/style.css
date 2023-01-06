@@ -98,6 +98,25 @@ header {
     padding-right: 130px;
 }
 
+.ban-content button {
+    margin-top: 20px;
+    width: 150px;
+    padding: 18px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #FD6E0A;
+    transition: all linear .3s;
+    margin-right: 20px;
+}
+
+.ban-content button:hover {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+}
+
 main {
     width: 992px;
     margin: 0 auto;
@@ -163,7 +182,8 @@ main {
 #what-i-do {
     padding-bottom: 130px;
 }
-#what-i-do .what-i-do-para{
+
+#what-i-do .what-i-do-para {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -173,31 +193,93 @@ main {
     padding: 0 179px;
 }
 
-.what_i_do-wrapper{
+.what_i_do-wrapper {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.what_i_do_item{
+.what_i_do_item {
     padding: 30px 30px;
     width: 180px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
 }
 
-.what_i_do_item figcaption{
+.what_i_do_item figcaption {
     font-family: 'Open Sans', sans-serif;
-font-weight: 700;
-font-size: 20px;
-padding-top: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25px;
 }
 
-.what_i_do_item p{
+.what_i_do_item p {
     font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-font-size: 13px;
-line-height: 24px;
-padding-right: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    padding-right: 20px;
 }
 
+
+/* resume style */
+#resume {
+    padding-bottom: 113px;
+}
+
+#resume .resume_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 41px;
+}
+
+.resume_main_item {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.resume_content {
+    border-bottom: 1px solid #D1D1D1;
+    padding: 20px 0;
+}
+
+.resume_content:last-child {
+    border: none;
+}
+
+.resume_content h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.resume_content h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.resume-btn {
+    text-align: center;
+}
+
+#resume button {
+    margin-top: 20px;
+    width: 150px;
+    padding: 18px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #FD6E0A;
+    transition: all linear .3s;
+    margin-right: 20px;
+}
