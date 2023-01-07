@@ -283,3 +283,99 @@ main {
     transition: all linear .3s;
     margin-right: 20px;
 }
+
+/* footer css area   */
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+.footer_container {
+    width: 992px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+.connect {
+    width: 550px;
+}
+
+.connect h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 20px;
+}
+
+.connect p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.connect a {
+    margin-right: 20px;
+}
+
+.message h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 20px;
+}
+
+.message form input[type="text"],input[type="email"] {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #757575;
+}
+
+.message form input::placeholder{
+    color: #757575;
+}
+
+.message form input:focus-visible{
+    outline: none;
+}
+
+.message form textarea{
+    width: 100%;
+    border: none;
+    padding-top: 18px;
+    border-radius: 5px;
+    padding-left: 18px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.message form textarea:focus-visible{
+    outline: none;
+}
+
+.message form input[type="submit"]{
+    padding: 18px 38px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
