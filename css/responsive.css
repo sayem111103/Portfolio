@@ -1,3 +1,6 @@
+/*----------------------
+ small device responsive
+ ------------------------ */
 @media screen and (max-width: 576px) {
     #navbar {
         width: unset;
@@ -156,6 +159,9 @@
     }
 }
 
+/*----------------------
+ medium device responsive
+ ------------------------ */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     #navbar {
         width: unset;
@@ -313,8 +319,4 @@
         display: block;
         margin: 0 auto;
     }
-}
-
-.hide{
-    display: none;
 }
