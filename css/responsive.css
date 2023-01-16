@@ -320,3 +320,213 @@
         margin: 0 auto;
     }
 }
+
+/*----------------------
+ large device responsive
+ ------------------------ */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #navbar {
+        width: unset;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #navbar h1 {
+        margin-bottom: 15px;
+    }
+
+    #navbar .nav-list .nav-item a {
+        font-size: 15px;
+    }
+
+    #navbar .nav-list .nav-item button {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    #banner {
+        display: flex;
+        align-items: center;
+        width: unset;
+        margin: 0 auto;
+    }
+
+    .ban-content {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .ban-content h3 {
+        font-size: 25px;
+    }
+
+    .ban-content h2 {
+        font-size: 40px;
+        margin-top: -10px;
+    }
+
+    .ban-content p {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 0 18px;
+    }
+
+    .ban-content button {
+        margin-top: 20px;
+        width: 115px;
+        padding: 15px 0;
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    #banner img {
+        width: 300px;
+    }
+
+    header {
+        background-size: 60%;
+    }
+
+    main {
+        width: unset;
+    }
+
+    #what-i-do {
+        padding: 60px 0;
+    }
+
+    #what-i-do .what-i-do-para {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 0 30px;
+    }
+
+    .what_i_do-wrapper {
+        display: flex;
+        margin-top: 60px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .what_i_do_item {
+        padding: 30px 30px;
+        width: 320px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .resume_main_item {
+        row-gap: 60px;
+        margin-top: 70px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resume_content {
+        padding: 20px 50px;
+    }
+
+    #resume button {
+        margin-top: 14px;
+        width: 120px;
+        padding: 10px 0;
+        font-size: 13px;
+        margin-right: 0px;
+    }
+
+    footer {
+        padding: 60px 0;
+    }
+
+    .footer_container {
+        width: unset;
+        display: flex;
+        gap: 15px;
+    }
+
+    .connect {
+        width: unset;
+        margin-left: 10px;
+    }
+    
+    .connect p {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px 0;
+    }
+
+    .message form input[type="text"], input[type="email"] {
+        width: 80%;
+    }
+
+    .message form textarea {
+        width: 80%;
+    }
+
+    .message form input[type="submit"] {
+        padding: 15px 35px;
+    }
+}
+
+/*----------------------
+ xl device responsive
+ ------------------------ */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #navbar {
+        max-width: 960px;
+    }
+
+    #navbar h1 {
+        margin-bottom: 15px;
+    }
+
+    #navbar .nav-list .nav-item a {
+        font-size: 15px;
+    }
+
+    #navbar .nav-list .nav-item button {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    #banner {
+        max-width: 960px;
+    }
+
+    .ban-content button {
+        margin-top: 20px;
+        width: 115px;
+        padding: 15px 0;
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    main {
+        max-width: 960px;
+    }
+
+    .what_i_do_item {
+        width: 18%;
+    }
+
+    footer {
+        padding: 60px 0;
+    }
+
+    .footer_container {
+        max-width: 960px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .message form input[type="text"], input[type="email"] {
+        width: 95%;
+    }
+
+    .message form textarea {
+        width: 95%;
+    }
+}

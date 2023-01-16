@@ -366,6 +366,7 @@ footer {
     font-weight: 400;
     resize: none;
     margin-bottom: 20px;
+    color: #757575;
 }
 
 .message form textarea:focus-visible{
